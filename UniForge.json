@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/neptaco/UniForge/releases/download/v0.2.0/UniForge_windows_amd64.tar.gz",
+            "bin": [
+                "UniForge.exe"
+            ],
+            "hash": "bf58f2ab4529ced9c3a1f5569990cacb15f5e3abbba7a9ce2671748e4b0edeaa"
+        }
+    },
+    "homepage": "https://github.com/neptaco/uniforge",
+    "license": "MIT",
+    "description": "CLI tool for Unity development"
+}
