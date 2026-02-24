@@ -1,12 +1,12 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/neptaco/UniForge/releases/download/v0.7.0/uniforge_windows_amd64.tar.gz",
+            "url": "https://github.com/neptaco/UniForge/releases/download/v0.7.1/uniforge_windows_amd64.tar.gz",
             "bin": [
                 "uniforge.exe"
             ],
-            "hash": "83eb8b491c62f3b768dc576d726494f86b315d04aab281da3e94ac00d06a6a75"
+            "hash": "a4019ff3106607e76c39e3892cbdb16affe41e58b0d4680e4e8b21bbb0e07728"
         }
     },
     "homepage": "https://github.com/neptaco/uniforge",
