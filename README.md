@@ -1,32 +1,15 @@
-# Scoop Bucket for neptaco tools
+# Scoop Bucket for neptaco tools (retired)
 
-Scoop bucket containing manifests for neptaco CLI tools.
+This bucket no longer distributes UniForge. Use the official standalone installer instead.
 
-## Usage
+## Install UniForge
 
 ```powershell
-# Add this bucket
-scoop bucket add neptaco https://github.com/neptaco/scoop-bucket
-
-# Install tools
-scoop install uniforge
+irm https://raw.githubusercontent.com/neptaco/uniforge/main/install.ps1 | iex
 ```
 
-## Available Tools
+Standalone installations can update themselves:
 
-| Tool | Description |
-|------|-------------|
-| [uniforge](https://github.com/neptaco/uniforge) | CLI tool for Unity development |
-
-## Update
-
-```powershell
-scoop update uniforge
-```
-
-## Uninstall
-
-```powershell
-scoop uninstall uniforge
-scoop bucket rm neptaco
+```text
+uniforge update
 ```
